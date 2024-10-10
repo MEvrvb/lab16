@@ -1,0 +1,222 @@
+#header{
+    background: url("https://media.edunet.vn/Media/News/images/CN%20QTNH%20-%20C%C4%90TH%20FPT%20Polytechnic%20banner1.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+#site-name h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-variant: small-caps;
+    text-shadow: 0 0 10px red;
+    border-bottom: 2px double orangered;    
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+#site-name p {
+    font-variant: small-caps;
+    font-size: 20px;
+    color: rgb(255, 119, 0);
+    padding-left: 20px;
+}
+
+#top-menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: orangered;
+    border-bottom-left-radius: 30px;
+    float: right;
+    padding-right: 10px;
+    margin-right: 20px;
+}
+#top-menu>li{
+    display: inline-block;
+    font-variant: small-caps;
+    padding: 10px;
+    
+}
+
+.sub-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    border: 1px soild white;
+    display: none;  
+
+}
+
+.sub-menu>li>a{
+    color: orangered!important;
+
+}
+
+#top-menu>li>a{
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+#menu{
+    background-color: orange;
+}
+
+#menu>ul{
+    list-style: none;
+margin: 0;
+padding: 0;
+color: white;
+
+}
+
+#menu>ul>li{
+    display: inline-block;
+}
+#menu>ul>li:hover .sub-menu{
+    display: block;
+}
+
+#menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.float-right{
+    float:right;
+}
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#left-content {
+    width: 60%;
+}
+
+#right-sidebar {
+    width: 35%;
+}
+
+#right-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#right-sidebar ul li {
+    padding: 5px;
+}
+
+#right-sidebar ul li a {
+    text-decoration: none;
+    color: orangered;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    font-size: 12px;
+    color: #333;
+}
+
+
+.vmenu{
+    padding: 0;
+    margin:5 pixel;
+    list-style:none;
+    border-radius:3 pixel;
+    box-shadow:0 0 2 pixel gray;
+    float: right; 
+    width: 200px; 
+    flex: 1;
+    float: right; /* Di chuyển menu sang phải */
+    width: 200px; /* Đặt chiều rộng */
+    flex-shrink: 0;
+
+}
+.vmenu a{
+    background: url('fire.png') no-repeat left center;
+    display: block;
+    border-bottom: 1px dotted orangered;
+    color: orangered;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 40px;
+ 
+
+}
+.vmenu a:hover{
+    background: url('fire.png') no-repeat left center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product{
+    box-shadow: 0 0 5px red;
+    border-radius: 1opx;
+    width: 25%;
+    padding: 10px;
+    position: relative;
+}
+
+.product-name{
+    margin: 0;
+    text-align: center;
+
+}
+.product-image{
+    width: 100%;
+}
+.product-special{
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+.product-price{
+    bottom: 0;
+    left: 0;
+    position: absolute
+}
+.product-icon{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
